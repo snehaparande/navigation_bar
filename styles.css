@@ -1,0 +1,44 @@
+* {
+  margin: 0em;
+  padding: 0em;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif
+}  
+
+.navigation-bar {
+  margin-top: 10px;
+  display: flex;
+  background-color: skyblue;
+  padding: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  column-gap: 1em;
+}
+
+.search-bar {
+  display: flex;
+  column-gap: 1em;
+  width: 30%;
+}
+
+.search-box {
+  width: 80%;
+  background-color: white;
+  padding: 0.2em;
+}
+
+.go-button {
+  width: 10%;
+  background-color: white;
+  padding: 0.2em;
+  text-align: center  ;
+}
